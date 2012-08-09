@@ -1,0 +1,18 @@
+* Overview
+
+Zenburn Theme for GTK2.
+
+Maybe there will also be support for GTK3 and other toolkits. You can
+send me your theme files for inclusion if you want.
+
+* Dependencies
+
+Murrine GTK+2 Cairo Engine ( Murrine GTK+2 Cairo Engine )
+
+* Bugs / Feature Request
+
+Simply open an issue or create an merge request on github
+
+* Contact
+
+Github: https://github.com/Flowdalic/zenburn-themes
