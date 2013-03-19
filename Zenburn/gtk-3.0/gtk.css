@@ -1,4 +1,4 @@
-/* 
+/*
  * Copyright (c) 2013, Florian Schmaus
  * Licensed under the BSD licenses (see LICENSE)
  */
@@ -45,7 +45,7 @@
     -GtkCheckButton-indicator-size   : 8;
     -GtkMenuBar-internal-padding     : 1;
     -GtkMenuBar-shadow-type          : out;
-    -GtkPaned-handle-size     	     : 4;
+    -GtkPaned-handle-size            : 4;
     -GtkRange-slider-width           : 12;
     -GtkRange-stepper-size           : 10;
     -GtkRange-stepper-spacing        : 0;
@@ -390,4 +390,3 @@ GtkComboBox .button {
 .slider.vertical:selected {
     background-image: -gtk-gradient(linear, left top, right top, from(shade(@bg_selected, 1.0)), to(shade(@bg_selected, 1.25)));
 }
-
