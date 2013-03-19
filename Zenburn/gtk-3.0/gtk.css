@@ -1,27 +1,36 @@
+/* 
+ * Copyright (c) 2013, Florian Schmaus
+ * Licensed under the BSD licenses (see LICENSE)
+ */
 
+/*
+ * Zenburn gtk-3.0 theme, based on XFCE Engine
+ * and the work by Mikhail Klementyev ( https://github.com/jollheef/zenburn-gtk2-3 )
+ * Zenburn color definitions: http://deletionpedia.dbatley.com/w/index.php?title=Zenburn
+ */
 @define-color fg_active #dcdccc;
 @define-color fg_insensitive #dcdccc;
 @define-color fg_normal #dcdccc;
 @define-color fg_prelight #dcdccc;
-@define-color fg_selected #dcdccc;
+@define-color fg_selected #000D18;
 
 @define-color bg_active #2e3330;
 @define-color bg_insensitive #3f3f3f;
 @define-color bg_normal #3f3f3f;
 @define-color bg_prelight #2e3330;
-@define-color bg_selected #2e3330;
+@define-color bg_selected #8FAF9F;
 
 @define-color base_active #2e3330;
 @define-color base_insensitive #303030;
-@define-color base_normal #333333;
+@define-color base_normal #3F3F3F;
 @define-color base_prelight #1e2320;
 @define-color base_selected #1e2320;
 
-@define-color text_active #fcfcfc;
-@define-color text_insensitive #fcfcfc;
-@define-color text_normal #fcfcfc;
-@define-color text_prelight #fcfcfc;
-@define-color text_selected #fcfcfc;
+@define-color text_active #dcdccc;
+@define-color text_insensitive #dcdccc;
+@define-color text_normal #dcdccc;
+@define-color text_prelight #dcdccc;
+@define-color text_selected #dcdccc;
 
 * {
     engine: xfce;
@@ -49,7 +58,7 @@
     -GtkWidget-focus-padding         : 1;
     -GtkWidget-interior-focus        : true;
     -GtkWidget-cursor-color          : #fcfcfc;
-    -GtkWidget-secondary-cursor-color: #fcfcfc;
+    -GtkWidget-secondary-cursor-color: #efefef;
     -GtkWidget-cursor-aspect-ratio   : 0.1;
     -GtkWidget-link-color           : #569cc1;
     -GtkWidget-visited-link-color   : #f2f2f2;
